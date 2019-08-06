@@ -1,3 +1,4 @@
+/* Post Blogs CSS */
 .post {
     position: relative;
     width: 90%;
@@ -8,10 +9,7 @@
     float:left;
     border-radius: 15px;
 }
-/* .row{
-    flex-wrap: nowrap!important;
-    
-} */
+
 .post-left {
         width: 15%;            
         max-width: 15%;
@@ -30,10 +28,7 @@
         border-radius: 0 15px 15px 0;
         padding: 0 20px;  
         
-        height:100px!important;    
-        /* overflow:hidden!important; */
-        
-        
+        height:100px!important;          
 }
 .post-title{
     font-family: 'Itim', cursive;
@@ -53,17 +48,14 @@
     font-size: 30px;
 }
 .post-desc{
-    height: 5.4em!important;
-    line-height:1.8rem!important;
-    text-overflow: ellipsis;
+    height: 4.2em!important;
+    line-height:1.4rem!important; 
     overflow:hidden;
-    margin-bottom: 0 !important;
+    margin-bottom: 16px !important;
+    font-size:16px;
+    font-family: 'Times New Roman', Times, serif;
+    /* padding-bottom: 15px!important; */
     
-}
-.trash{
-    font-size:28px!important;
-    float:right;
-    margin-top:10px;
 }
 body {
     height: 100%;
@@ -79,6 +71,21 @@ body {
     width: 100%;
 
 }
+/* ... Icon CSS */
+.ellipsis{
+    font-size:20px!important;
+    float:right;
+    color:rgb(36, 33, 33);
+}
+/* Trash Icon CSS */
+.trash{
+    font-size:28px!important;
+    float:right;
+    cursor:pointer;
+    margin-top:10px!important;
+}
+
+/* SignIn and SignUp Modal CSS */
 .label{
     font-family:Bahnschrift Condensed;
     font-weight:bold;
@@ -116,6 +123,29 @@ body {
 }
 #signupFooter{
    color:rgb(61, 61, 219)!important;
+}
+/* Delete Modal CSS */
+.noButt{
+    background-color:rgb(83, 173, 83);
+    color:white;
+    padding:7px 60px 7px 60px;
+    float:right;
+    margin-bottom:15px;
+    border:none;
+}
+.yesButt{
+    background-color:red;
+    padding:7px 60px 7px 60px;
+    color:white;
+    margin-bottom:15px;
+    float:left;
+    border:none;
+}
+.deleteHeading{
+    padding-top:10px;
+    padding-bottom: 10px;
+    text-align:center;
+    font-weight:bold;
 }
 /* Media Queries */
 @media only screen and (max-width: 512px) {
