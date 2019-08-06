@@ -4,25 +4,41 @@ body{
    background-attachment: fixed;
    background-position: center center;
    background-size: cover;
-   margin: 0 !important;
+  
    background-size: 100% cover!important;
    overflow:hidden;
    display: block;
 } 
 
 /* Set a style for the rest of the elements besides the header elements on the index.html page */
-/* .centerDiv{
-    margin-top:100px;
-    
-    
+
+/* html,body{
+   margin: 0 !important;
+   height:100%!important;
+}
+#main-container-div{
+   margin: 0 !important;
+   height:100%!important;
 } */
+
+.centerDiv{
+   margin-top:110px; 
+}
 .centerButt{
    background-color:#D1B641  ;
    padding:7px 16px;
    font-size:14px;
    font-weight:bold;
+   display:flex;
+   /* position:relative;
+   top:50%;
+   left:50%; */
+   align-items: center;
    font-family:Arial, Helvetica, sans-serif;
 }    
+#underline{
+   text-decoration: none;
+}
 .override{
    background-color: #f1f1f1!important;
    border:none!important;
