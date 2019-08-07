@@ -85,45 +85,6 @@ body {
     margin-top:10px!important;
 }
 
-/* SignIn and SignUp Modal CSS */
-.label{
-    font-family:Bahnschrift Condensed;
-    font-weight:bold;
-}
-.override{
-   background-color: #f1f1f1!important;
-   border:none!important;
-   border-radius: 0px!important;
-}
-.title{
-   font-family:Bahnschrift Condensed!important;
-   font-size:27px!important;
-}
-.modal-dialog{
-  
-   width:30%!important;
-   line-height:180%!important;
-}
-.modal-header{
-   border-bottom: 1px solid gray!important;
-   margin-left: 15px!important;
-   margin-right: 15px!important;
-}
-.close{
-   font-size:38px!important;
-}
-.modal-content{
-   border-radius:0px!important;
-}
-.buttonBorder{
-   border-radius: 0px!important;
-}
-.footer{
-   text-align:center;
-}
-#signupFooter{
-   color:rgb(61, 61, 219)!important;
-}
 /* Delete Modal CSS */
 .noButt{
     background-color:rgb(83, 173, 83);

@@ -22,3 +22,56 @@
     justify-content: center;
 }
 /* Set a style for all the remaining elements like Like button, Edit button, Comment button and so on. */
+.editButton{
+    float:right;
+    color:white;
+    background-color:rgb(238, 82, 108);
+    border:none;
+    padding:6px 12px 6px 12px;
+    font-size:16px;
+    box-shadow: 0px 3px 5px #d48383;
+}
+.saveButton{
+    float:right;
+    color:white;
+    background-color:rgb(238, 82, 108);
+    border:none;
+    padding:7px 12px 7px 12px;
+    font-size:15px;
+    display:none;
+    box-shadow: 0px 3px 5px #d48383;
+}
+#likePara{
+    font-family: 'Courier New', Courier, monospace;
+    font-size:14px;
+    font-weight:bold;
+    position: absolute;
+    margin-top:10px;
+}
+.likeButton{
+        color:white;
+        position: relative;
+        background-color:rgb(240, 61, 91);
+        border:none;
+        padding:6px 33px 6px 33px;
+        font-size:16px;
+        border-radius: 3px;
+        font-family: Helvetica;
+        box-shadow: 0px 3px 5px #d48383;
+    
+}
+#commentBox{
+    font-size:14px;
+    font-family: 'Courier New';
+    position:relative;
+}
+.commentButton{
+    color:white;
+    position: absolute;
+    background-color:rgb(240, 61, 91);
+    border:none;
+    margin-top:15px;
+    padding:6px 18px 6px 18px;
+    font-size:15px;
+    box-shadow: 0px 3px 5px #d48383;
+}
