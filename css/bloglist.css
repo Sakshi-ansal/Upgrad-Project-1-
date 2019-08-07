@@ -35,7 +35,7 @@
     font-weight: bold;
     color: #2b312b;
     margin-top:20px!important;
-    font-size: 25px;
+    font-size: 23px;
     height: 25px;
     }
 .post-more {
@@ -152,7 +152,18 @@ body {
     .post {
       margin: 10px 10px 10px 10px!important;
     }
+    .post-title{
+        overflow:hidden;
+    }
   }
+@media only screen and (max-width: 1123px) {
+   
+    .post-title{
+        overflow:hidden;
+        font-size:22.5px;
+    }
+  }
+
 @media only screen and (max-width: 428px) {
     .post {
       margin:2px!important;
