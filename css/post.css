@@ -25,6 +25,7 @@
 .editButton{
     float:right;
     color:white;
+    
     background-color:rgb(238, 82, 108);
     border:none;
     padding:6px 12px 6px 12px;
@@ -74,4 +75,22 @@
     padding:6px 18px 6px 18px;
     font-size:15px;
     box-shadow: 0px 3px 5px #d48383;
+}
+#allComments{
+    font-weight:bold;
+    font-size:17px;
+    font-family: 'Times New Roman';
+}
+#commentSection{
+    background-color:#E3E4E6;
+    margin-bottom:20px;
+    min-height:20px;
+    width:68%;
+    padding:10px;
+    
+}
+.newDiv{
+    background: white;
+    margin:10px;
+    padding:13px 10px 13px 10px;
 }

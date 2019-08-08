@@ -108,13 +108,13 @@
     <div class="container">
      <div class="blogContent ">
           <div id="blogTitle" class="blogTite">
-              <h id="blogTitleNew">The legacy of Jimi Hendrix</h>
+              <h id="blogTitleNew"><span id="spanTitle">The legacy of Jimi Hendrix<span></h>
           </div>
 
           <div >
              <!-- Insert code for Edit/Save button and  -->
-             <button class="editButton" onclick=editToggle()>Edit&nbsp;<i class="fa fa-edit"></i></button>
-             <button class="saveButton" onclick=saveToggle()>Save&nbsp;<i class="fa fa-save"></i></button>
+             <button class="editButton" onclick=edit>Edit&nbsp;<i class="fa fa-edit"></i></button>
+             <button class="saveButton" onclick=save>Save&nbsp;<i class="fa fa-save"></i></button>
              <p class="blogAuthor">Jimi</p>
           </div>
 
@@ -127,15 +127,17 @@
 
     <!-- Insert code for Like button, Comment button, Comment box here-->
     <div>
-       <button class="likeButton"><i class="fa fa-thumbs-up"></i>&nbsp;Like</i></button>
+       <button class="likeButton" onclick=like()><i class="fa fa-thumbs-up"></i>&nbsp;Like</i></button>
        <p id="likePara">Be the first one to like this!</p>
     </div><br><br>
     <div>
       <textarea id="commentBox" cols="90" rows="4" placeholder="Leave a comment..."></textarea><br>
-      <button class="commentButton">Comment</button>
+      <button class="commentButton" onclick=allComment()>Comment</button>
     </div>
-    
-    
+    <br><br><br>
+    <p id="allComments">All Comments</p>
+    <div id="commentSection" > 
+    </div>
    </div>
     <script src="..\js\post.js" defer></script>
     <script src="..\js\header.js"></script>
