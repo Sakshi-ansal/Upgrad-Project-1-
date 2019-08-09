@@ -27,6 +27,9 @@ the title "ScriBBler" & the sub-heading below "ScriBBLer" */
     border:none!important;
     border-radius: 0px!important;
  }
+ .override::placeholder{
+   font-family:Bahnschrift Condensed;
+ }
  .title{
     font-family:Bahnschrift Condensed!important;
     font-size:27px!important;

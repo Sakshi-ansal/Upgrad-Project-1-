@@ -1,6 +1,13 @@
-//To show a confirm box when the user wants to delete the post
-function deleteButton(){
-    document.getElementById("deleteModal").style.display="none";
-    confirm("Are you sure you want to delete this post?");
-    document.location.reload() //To refresh the page
-}
+//To delete a particular Post
+$(document).ready(function(){
+    $(".postClass").on("click", function(){
+    var parentId = $(this).parent().parent().attr("id");
+    $(".yesButt").on("click", function(){
+       $("#"+parentId).html("This Post has been deleted");
+       $("#"+parentId).css("font-weight","bold");
+       $("#"+parentId).css("text-align","center");
+       $("#"+parentId).css("font-family","Bahnschrift Condensed");
+       $('#deleteModal').modal('hide');
+    })
+    })
+});

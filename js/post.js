@@ -28,7 +28,7 @@ function like(){
             document.getElementById("likePara").innerHTML= count + " Person likes this!";
        }
        else{
-            document.getElementById("likePara").innerHTML= count + " Person likes this!";
+            document.getElementById("likePara").innerHTML= count + " People have liked this!";
        }
 }
 //Add Functionality to Comment Button
