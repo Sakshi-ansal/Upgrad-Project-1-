@@ -24,10 +24,10 @@
                     <p id="middleText">Explore. Imagine. Create</p>
                </div>
                <div class="p-2 bd-highlight">
-                    <button class="butt" data-toggle="modal" data-target="#signInModal" onclick=signIn() >Sign In</button>
+                    <button class="butt" data-toggle="modal" data-target="#signInModal" onclick="signIn()" >Sign In</button>
                </div>
                <div class="p-2 bd-highlight">
-                    <button class="butt" data-toggle="modal" data-target="#signUpModal" onclick=signUp()>Sign Up</button>
+                    <button class="butt" data-toggle="modal" data-target="#signUpModal" onclick="signUp1()">Sign Up</button>
                </div>
           </div>
              
@@ -53,11 +53,11 @@
                     </div>
                     <div class="form-group">
                         <label class="label">Username</label>
-                        <input class="form-control override" type="text" name="" id="uname" placeholder="Enter Username" required>
+                        <input class="form-control override" type="text" name="" id="uname1" placeholder="Enter Username" required>
                     </div>
                     <div class="form-group">
                         <label class="label">Password</label>
-                        <input class="form-control override" type="password" name="" id="pass" placeholder="Enter Password" required>
+                        <input class="form-control override" type="password" name="" id="pass1" placeholder="Enter Password" required>
                     </div>
                     <div class="form-group">
                         <label class="label">Confirm Password</label>
@@ -75,35 +75,38 @@
 
  <!-- Insert code for Sign In modal here -->
 
-     <div class="modal fade" id="signInModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-          <div class="modal-dialog modal-dialog-centered" role="document">
-            <div class="modal-content">
-              <div class="modal-header text-center">
-                <h5 class="modal-title title w-100" id="exampleModalLongTitle" >Welcome Back!</h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                  <span aria-hidden="true">&times;</span>
-                </button>
+ <div class="modal fade" id="signInModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header text-center">
+        <h5 class="modal-title title w-100" id="exampleModalLongTitle" >Welcome Back!</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
 
-              </div>
-              <div class="modal-body">
-                <form>
-                    <div class="form-group">
-                        <label class="label" for="uname">Username</label>
-                        <input class="form-control override" type="text" name="username" id="uname" placeholder="Enter Username" required="required">
-                    </div>
-                    <div class="form-group" class="label">
-                        <label class="label" for="pass">Password</label>
-                        <input class="form-control override" type="password" name="password" id="pass" placeholder="Enter Password" required="required">
-                    </div>
-                    <div>
-                       <button type="submit" class="btn btn-success form-control buttonBorder">Sign In</button>
-                    </div>
-                </form> <br>
-                <p class="footer"><b>Not a member? </b><a id="signupFooter" href="#" data-toggle="modal" data-dismiss="modal" data-target="#signUpModal"><b>Sign Up</b></a></p>
-              </div>
+      </div>
+      <div class="modal-body">
+        
+        <form>
+            <div class="form-group">
+                <label class="label">Username</label>
+                <input class="form-control override" type="text" name="" id="uname" placeholder="Enter Username" required>
             </div>
-          </div>
-     </div>
+            <div class="form-group">
+                <label class="label">Password</label>
+                <input class="form-control override" type="password" name="" id="pass" placeholder="Enter Password" required>
+            </div>
+           
+            <div>
+               <button type="submit" class="btn btn-success form-control buttonBorder">Sign In</button>
+            </div>
+        </form> <br>
+        <p class="footer"><b>Not a member? </b><a id="signupFooter" href="#" data-toggle="modal" data-dismiss="modal" data-target="#signUpModal"><b>Sign Up</b></a></p>
+      </div>
+  </div>
+</div>
+</div>
+
 
 <!-- Content Title -->
     <div class="container">
