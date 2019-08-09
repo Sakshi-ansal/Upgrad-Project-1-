@@ -111,7 +111,7 @@ body {
 /* Media Queries */
 @media only screen and (max-width: 512px) {
     .post {
-      margin: 10px 10px 10px 10px!important;
+      margin: 0px 10px 10px 10px!important;
     }
     .post-title{
         overflow:hidden;
@@ -124,10 +124,9 @@ body {
         font-size:22.5px;
     }
   }
-
 @media only screen and (max-width: 428px) {
     .post {
-      margin:2px!important;
+      margin:0px 2px 5px 10px!important;
     }
   }
 @media only screen and (max-width: 400px) {
@@ -135,3 +134,4 @@ body {
       display:block!important;
     }
   }
+  
